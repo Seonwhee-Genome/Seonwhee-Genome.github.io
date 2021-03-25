@@ -1,18 +1,8 @@
----
-title: "Food Recognition"
-excerpt: "Food recognition system that is able to identify more than 3,000 types of food"
-
-categories:
-    - Portfolio
-tags:
-    - Portfolio
----
-
 # Food Recognition (Object Detection and AI OCR)  
 ### 1. Project overview  
 I designed a food recognition system that is able to identify more than 3,000 types of food, including both generic types of food and food produced by particular companies. The client this project was being done for required that the system be able to distinguish between foods produced by specific companies and to get nutritional information from the client’s database. For example, the system would have to be able to distinguish between pepperoni pizzas made by me and by Domino’s.  
 ### 2. Obstacles  
-<img src="/assets/img/opensource_pizza.jpg" alt="peperroni" width="100" />    
+<img src="/assets/img/opensource_pizza.jpg" alt="peperroni" width="500" />    
 There are an infinite number of possible pepperoni pizzas, so it was almost impossible to recognize which were made by Domino’s based solely on their shape. Therefore, object detection models like YOLO (Redmon et al., 2016) were of limited value in distinguishing between who produced a particular food product.  
 To meet the client’s requirements, I re-defined the task. First, the object detection model would determine what the food in question was but not try to determine who made it. The brand and product name were required to identify who produced the food in question. Thus, if the photo of the food contained a package label, then the system could identify the product’s name and who made it. It was for this reason that I included the AI OCR model in the system.  
 ### 3. Food recognition machine learning pipeline  
@@ -29,7 +19,8 @@ The alternative model was based on an object detection model. This model could d
 This diagram shows how the client makes a REST API call and the server responds with the food location and identification results.  
 Although both TensorFlow and PyTorch provide their own server systems, TensorFlow Serving and TorchServe, respectively, they had intractable compatibility issues. I built a web API server using Django and defined an OpenAPI to make inferences. After clients submitted POST requests with uploaded food images as multipart or form data, the web server performed inferences on uploaded images and returned the results as JSONs.   
 I made an iOS app using Swift for testing purposes. A commercial Android app was developed by another developer. The gif below show the client-side UI of how inferences were made.  
- ![OCR_example](/assets/img/OCR_example1.gif)   
+ ![OCR_example](/assets/img/OCR_example1.gif)
+ <img src="/assets/img/OCR_example1.gif" alt="peperroni" width="500" />    
   
 Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.-Y., & Berg, A. C. (2016). SSD: Single Shot MultiBox Detector. In B. Leibe, J. Matas, N. Sebe, & M. Welling (Eds.), The 14th European Conference on Computer Vision (ECCV) (pp. 21–37). Springer. https://doi.org/10.1007/978-3-319-46448-0_2  
 Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You Only Look Once: Unified, Real-Time Object Detection. In Z. Akata, R. Arandjelovic, A. Argyros, T. Avraham, S. Branson, J. Choi, & A. Davison (Eds.), 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (pp. 779–788). IEEE. https://doi.org/10.1109/CVPR.2016.91  
