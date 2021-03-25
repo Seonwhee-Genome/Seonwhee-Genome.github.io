@@ -1,3 +1,9 @@
+---
+title: "Food Recognition"
+permalink: /portfolio/
+layout: single
+---
+
 # Food Recognition (Object Detection and AI OCR)  
 ### 1. Project overview  
 I designed a food recognition system that is able to identify more than 3,000 types of food, including both generic types of food and food produced by particular companies. The client this project was being done for required that the system be able to distinguish between foods produced by specific companies and to get nutritional information from the client’s database. For example, the system would have to be able to distinguish between pepperoni pizzas made by me and by Domino’s.  
