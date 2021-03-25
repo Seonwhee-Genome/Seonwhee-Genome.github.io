@@ -1,6 +1,6 @@
 ---
 title: "Food Recognition"
-permalink: /portfolio/
+permalink: /portfolio/Food_Recognition/
 layout: single
 ---
 
