@@ -17,7 +17,7 @@ The alternative model was based on an object detection model. This model could d
 ### 4. Model inference server  
 ![WebServer](/assets/img/FoodRecognition_Serve.png)  
 This diagram shows how the client makes a REST API call and the server responds with the food location and identification results.  
-Although both TensorFlow and PyTorch provide their own server systems, TensorFlow Serving and TorchServe, respectively, they had intractable compatibility issues. I built a web API server using Django and defined an OpenAPI to make inferences. After clients submitted POST requests with uploaded food images as multipart or form data, the web server performed inferences on uploaded images and returned the results as JSONs.   
+Although both TensorFlow and PyTorch provide their own server systems, TensorFlow Serving and TorchServe, respectively, they had intractable compatibility issues. I built a web API server using Django and defined an OpenAPI to make inferences. After clients submitted POST requests with uploaded food images as multipart/form-data, the web server performed inferences on uploaded images and returned the results as JSONs.   
 I made an iOS app using Swift for testing purposes. A commercial Android app was developed by another developer. The gif below show the client-side UI of how inferences were made.   
  <img src="/assets/img/OCR_example1.gif" alt="peperroni" width="400" />    
    
