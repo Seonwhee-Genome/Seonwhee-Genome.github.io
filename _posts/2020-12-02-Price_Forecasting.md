@@ -7,14 +7,14 @@ Here is an example of how my forecasting model would be used. The auto-trader wo
 ### 2. Data and model platform   
 ![Overall](/assets/img/Overall_dataLake.png)     
 This diagram shows the data pipeline and model inference platform used for BitMEX trading. The auto-trader algorithm inside the API server was built using a Django REST framework. Market price data was acquired via BitMEX and Binance API calls and stored in an AWS Aurora MySQL database. Unstructured data was scraped and stored as as-is JSONs and stored on an AWS S3 server.  
-<img src="/assets/img/AWS_EMR4.png" alt="datalake" width="400" />       
+<img src="/assets/img/AWS_EMR4.png" alt="datalake" width="420" />       
 Historical price data is the most influential factor in predicting price movements and volatility. Stock markets record market prices at any given time as open, high, low, or close. Thus, I stored market price data in a relational database.   
 I scraped news articles and stored them in JSON format in an AWS S3 Bucket. These JSONs were mined using the AWS EMR SparkAPI.   
 
 ### 3. Time-series machine learning  
 #### (1) Analysis of Bitcoin price time series data   
 The difference in prices of Bitcoin was non-stationary time series data that included white noise, trends, and a seasonal component.   
-<img src="/assets/img/log-diff.png" alt="logdiff" width="350" /><img src="/assets/img/regime1.png" alt="regime" width="350" />    
+<img src="/assets/img/log-diff.png" alt="logdiff" width="400" /><img src="/assets/img/regime1.png" alt="regime" width="400" />    
   
 It could be decomposed into a regime with higher variance and one that was relatively stable. This characteristic indicated that this time series data could be modeled using the regime-switching model.    
 <img src="/assets/img/historical.png" alt="historical" width="350" /><img src="/assets/img/recent.png" alt="recent" width="350" />  
@@ -25,7 +25,7 @@ The effective classification models were based on the random forest (Breiman, 20
   
 #### (3) Investment   
 The returns produced by the classifier-based investing algorithm.   
-<img src="/assets/img/invest1.png" alt="invest1" width="320" /><img src="/assets/img/invest2.png" alt="invest2" width="320" /><img src="/assets/img/invest3.png" alt="invest3" width="320" />    
+<img src="/assets/img/invest1.png" alt="invest1" width="200" /><img src="/assets/img/invest2.png" alt="invest2" width="200" /><img src="/assets/img/invest3.png" alt="invest3" width="200" />    
 The classifier-based algorithm had greater returns than the algorithm that made trades less frequently. There was no correlation between the precision of the classifier and the returns it produced.   
     
 -------------   
