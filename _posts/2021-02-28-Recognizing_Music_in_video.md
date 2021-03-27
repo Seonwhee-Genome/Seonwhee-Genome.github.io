@@ -24,7 +24,7 @@ Without VGGish features, the classifiers could not effectively distinguish betwe
 <img src="/assets/img/ControlExp.PNG" alt="control" width="200" />  
 The client requested that the model maximize the true positive classification rate, which is the rate at which music is properly identified as music.   
 <img src="/assets/img/ConfusionMat.PNG" alt="confusionmat" width="250" />   
-The results showed that VGGish’s features were powerful and applicable to this task.   
+The results showed that the VGGish feature extraction was powerful and applicable to this task.   
    
 ---------------------  
 Hershey, S., Chaudhuri, S., Ellis, D. P. W., Gemmeke, J. F., Jansen, A., Moore, R. C., Plakal, M., Platt, D., Saurous, R. A., Seybold, B., Slaney, M., Weiss, R. J., & Wilson, K. (2017). CNN architectures for large-scale audio classification. *2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*, 131–135. https://doi.org/10.1109/ICASSP.2017.7952132
