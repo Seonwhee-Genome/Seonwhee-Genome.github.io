@@ -22,6 +22,8 @@ I made an iOS app using Swift for testing purposes. A commercial Android app was
  <img src="/assets/img/OCR_example1.gif" alt="peperroni" width="300" />    
    
 -------------------
-Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.-Y., & Berg, A. C. (2016). SSD: Single Shot MultiBox Detector. In B. Leibe, J. Matas, N. Sebe, & M. Welling (Eds.), *The 14th European Conference on Computer Vision (ECCV)* (pp. 21–37). Springer. https://doi.org/10.1007/978-3-319-46448-0_2  
-Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You Only Look Once: Unified, Real-Time Object Detection. In Z. Akata, R. Arandjelovic, A. Argyros, T. Avraham, S. Branson, J. Choi, & A. Davison (Eds.), *2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 779–788). IEEE. https://doi.org/10.1109/CVPR.2016.91  
+Liu, W., Anguelov, D., Erhan, D., Szegedy, C., Reed, S., Fu, C.-Y., & Berg, A. C. (2016). SSD: Single Shot MultiBox Detector. In B. Leibe, J. Matas, N. Sebe, & M. Welling (Eds.), *The 14th European Conference on Computer Vision (ECCV)* (pp. 21–37). Springer. https://doi.org/10.1007/978-3-319-46448-0_2    
+  
+Redmon, J., Divvala, S., Girshick, R., & Farhadi, A. (2016). You Only Look Once: Unified, Real-Time Object Detection. In Z. Akata, R. Arandjelovic, A. Argyros, T. Avraham, S. Branson, J. Choi, & A. Davison (Eds.), *2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (pp. 779–788). IEEE. https://doi.org/10.1109/CVPR.2016.91    
+  
 Wang, W., Xie, E., Liu, X., Wang, W., Liang, D., Shen, C., & Bai, X. (2020). Scene Text Image Super-resolution in the Wild. In A. Vedaldi, H. Bischof, T. Brox, & J.-M. Frahm (Eds.), *Computer Vision – ECCV 2020* (Vol. 12355). Springer, Cham. https://doi.org/10.1007/978-3-030-58607-2_38  
