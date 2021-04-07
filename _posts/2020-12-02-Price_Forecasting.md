@@ -6,7 +6,7 @@ Here is an example of how my forecasting model would be used. The auto-trader wo
    
 ### 2. Data and model platform   
 ![Overall](/assets/img/Overall_dataLake.png)     
-This diagram shows the data pipeline and model inference platform used for BitMEX trading. The auto-trader algorithm inside the API server was built using a Django REST framework. Market price data was acquired via BitMEX and Binance API calls and stored in an AWS Aurora MySQL database. Unstructured data was scraped and stored as as-is JSONs and stored on an AWS S3 server.  
+This diagram shows the data pipeline and model inference platform used for BitMEX trading. The auto-trader algorithm inside the API server was built using a Django REST framework. Market price data was acquired via BitMEX and Binance API calls and stored in an AWS Aurora MySQL database([The repository related to this topic](https://github.com/Seonwhee-Finance/BitMEX_API){:target="_blank"}). Unstructured data was scraped and stored as as-is JSONs and stored on an AWS S3 server.  
 <img src="/assets/img/AWS_EMR4.png" alt="datalake" width="450" />       
 Historical price data is the most influential factor in predicting price movements and volatility. Stock markets record market prices at any given time as open, high, low, or close. Thus, I stored market price data in a relational database.   
 I scraped news articles and stored them in JSON format in an AWS S3 Bucket. These JSONs were mined using the AWS EMR SparkAPI.   
