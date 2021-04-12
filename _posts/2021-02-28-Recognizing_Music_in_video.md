@@ -10,13 +10,13 @@ The waveforms of sound vary significantly, so it is difficult to generalize the 
 The frequency space of all sinusoidal waves can be identified by fast Fourier transformations.  
 <img src="/assets/img/FFTs.png" alt="FFTs" width="450" />   
 The sample in the figure above shows that the frequency space for non_music/101729_1.wav was significantly different from the other three sample files while that for non_music/130961_46.wav was not.  
-Another approach to differentiating music from other sounds could be to implement different spectrums. The figure below shows the log Mel spectrums of each sample.  
+Another approach to differentiating music from other sounds could be to implement different type of spectrogram, MFCC. The figure below shows the log Mel spectrums of each sample.  
 <img src="/assets/img/mel_01.png" alt="mel1" width="250" /><img src="/assets/img/mel_02.png" alt="mel2" width="250" />   
 <img src="/assets/img/mel_03.png" alt="mel3" width="250" /><img src="/assets/img/mel_04.png" alt="mel4" width="250" />  
 Convolutional neural networks could be run on these Mel-spectrum features, which can be represented as two-dimensional matrices, to extract more complex features of the sounds’ characteristics.  
 Below is a visualization of the inference results of a pre-trained VGGish model(Hershey *et al.*, 2017) run on the samples.  
 <img src="/assets/img/VGGish.png" alt="VGGish" width="500" />  
-The VGGish features above are relatively simple and produce clearer patterns that I thought could be used to differentiate between music and other types of sounds. Various classifiers which learned the VGGish features can be used as a training dataset.
+The VGGish features above are relatively simple and produce clearer patterns that I thought could be used to differentiate between music and other types of sounds.  
 ### 3. Experiments  
 I found that VGGish(Hershey *et al.*, 2017) was effective at distinguishing between music and other types of sounds. Instead of giving more detail about the classifier types and their model architectures, I will present some fundamental experimental results.   
 I used the mixed FMA and UrbanSound dataset to train custom classifiers and test their performance.   
