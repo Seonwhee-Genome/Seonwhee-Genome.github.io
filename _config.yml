@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Seonwhee Jin"
-  avatar           : "/assets/img/IMG_3701.HEIC" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/IMG_3128.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Research Scientist"
   location         : "Seoul, South Korea"
   email            :
