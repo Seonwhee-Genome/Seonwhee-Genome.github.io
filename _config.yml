@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "print('Hello World')"
+title                    : "I'm Seonwhee."
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seonwhee Jin"
@@ -94,7 +94,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Seonwhee Jin"
+  name             : "Seonwhee Jin, MS"
   avatar           : "/assets/img_avatar/greetings.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Machine Learning Research Scientist"
   location         : "Seoul, South Korea"
@@ -112,10 +112,10 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/seonwhee-genome/"
-    - label: "GitHub 1"
+    - label: "GitHub I"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Seonwhee-Genome"
-    - label: "GitHub 2"
+    - label: "GitHub II"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Seonwhee-Finance"
 
@@ -280,3 +280,15 @@ defaults:
       comments: # true
       share: true
       related: true
+    
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+
