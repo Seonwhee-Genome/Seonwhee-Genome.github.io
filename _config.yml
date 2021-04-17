@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Seonwhee Jin"
   avatar           : "/assets/img_avatar/greetings.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Research Scientist"
+  bio              : "Machine Learning Research Scientist"
   location         : "Seoul, South Korea"
   email            :
   links:
