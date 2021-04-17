@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Seonwhee Jin"
+title                    : "print('Hello World')"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Seonwhee Jin"
+name                     : "print('Hello World')"
 description              : "portfolio"
 url                      : "https://seonwhee-genome.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Seonwhee Jin"
   avatar           : "/assets/img_avatar/greetings.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Research Scientist"
+  bio              : "Machine Learning Research Scientist"
   location         : "Seoul, South Korea"
   email            :
   links:
@@ -112,10 +112,10 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/seonwhee-genome/"
-    - label: "GitHub 1"
+    - label: "GitHub primary"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Seonwhee-Genome"
-    - label: "GitHub 2"
+    - label: "GitHub secondary"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Seonwhee-Finance"
 
