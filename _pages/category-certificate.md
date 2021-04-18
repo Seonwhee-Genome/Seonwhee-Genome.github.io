@@ -3,7 +3,7 @@ layout: category
 taxonomy: Certificates
 title: Certificates
 permalink: "/Certificates/"
-author_profile: false
+author_profile: true
 ---
 ## Natural Language Processing  
 ### Natural Language Processing Nanodegree | Udacity [<i class="fas fa-link"></i>](https://graduation.udacity.com/confirm/LYZAKAJM){:target="_blank"}  
