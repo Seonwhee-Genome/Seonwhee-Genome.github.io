@@ -11,17 +11,20 @@ Tools : Python, Jupyter Notebook, Tensorflow
 Syllabus [<i class="fas fa-download"></i>](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/NLP+Nanodegree+Syllabus.pdf){:target="_blank"}  
 * PART 1 Introduction to Natural Language Processing     
 Project : Building a part of speech tagger using hidden Markov models  
+Use table lookups, n-grams, and hidden Markov models to tag parts of speech in sentences and compare their performance  
 * PART 2 Computing with Natural Language  
 Project : Machine Translation  
+Build a deep neural network that functions as part of an end-to-end machine translation pipeline   
 * PART 3 Communicating with Natural Language  
 Project : DNN Speech Recognizer  
-  
+Build a deep neural network that functions as part of an end-to-end automatic speech recognition (ASR) pipeline  
 --------  
     
 ### Natural Language Processing Specialization | Coursera [<i class="fas fa-link"></i>](https://www.coursera.org/account/accomplishments/specialization/WKMNNCZ79JGZ){:target="_blank"}  
 Tools : Python, Jupyter Notebook, Tensorflow  
 Syllabus [<i class="fas fa-paperclip"></i>](https://www.coursera.org/specializations/natural-language-processing?#courses){:target="_blank"}  
 * Natural Language Processing with Classification and Vector Spaces [<i class="fas fa-link"></i>](https://www.coursera.org/account/accomplishments/verify/GZHD7DSJRWZR){:target="_blank"}    
+
 * Natural Language Processing with Probabilistic Models [<i class="fas fa-link"></i>](https://www.coursera.org/account/accomplishments/verify/DJC3PCYKQKLK){:target="_blank"}   
 * Natural Language Processing with Sequence Models [<i class="fas fa-link"></i>](https://www.coursera.org/account/accomplishments/verify/TMH5KJATXYHW){:target="_blank"}   
 * Natural Language Processing with Attention Models [<i class="fas fa-link"></i>](https://www.coursera.org/account/accomplishments/verify/HBV9NY86GF7L){:target="_blank"}   
