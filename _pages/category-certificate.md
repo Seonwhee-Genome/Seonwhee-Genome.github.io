@@ -65,6 +65,6 @@ Syllabus [<i class="fas fa-paperclip"></i>](https://www.udemy.com/course/ai-flig
 Training airplane agents  
 <img src="/assets/img_cert/unity-training.jpeg" alt="train" width="450" />  
 
-Recorded game view 
+Recorded game view   
 <img src="/assets/img_cert/unityml-aircraft.gif" alt="game" width="450" />  
 
