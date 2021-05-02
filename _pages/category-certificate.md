@@ -67,4 +67,6 @@ Training airplane agents
 
 Recorded game view   
 <img src="/assets/img_cert/unityml-aircraft.gif" alt="game" width="450" />  
-
+  
+--------------
+--------------
