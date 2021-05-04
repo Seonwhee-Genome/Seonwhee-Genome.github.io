@@ -26,7 +26,7 @@ For more information on how to validate the applicability of our GliomaSCAN proc
 ### 4. Radiogenomics  
 Many clinicians have paid attention to radiogenomics, a combination of genetic information and radiology (Ellingson, 2015). In oncology, radiogenomic approaches are used to generate information about the patient rather than making treatment decisions based on population data or clinical information, such as tumor stage, patient age, or patient gender (Lo Gullo *et al*., 2020). This type of approach is why I helped implement deep learning to solve issues in MR image processing.  
 <img src="/assets/img_ngs/Biomarker.png" alt="biomarker" width="450" />  
-In 2017, deep Learning-based brain tumor diagnosis methods were becoming popular. I observed radiologists at Samsung Medical Center manually segmenting GBM ranges from MR images. To eliminate this laborious task, I pioneered deep learning segmentation with IRCR scientists. My Github repo[<i class="fab fa-github"></i>](https://doi.org/10.4143/crt.2019.036){:target="_blank"} shows an example of how to process MR image data with Python.  
+In 2017, deep Learning-based brain tumor diagnosis methods were becoming popular. I observed radiologists at Samsung Medical Center manually segmenting GBM ranges from MR images. To eliminate this laborious task, I pioneered deep learning segmentation with IRCR scientists. My Github repo[<i class="fab fa-github"></i>](https://github.com/Seonwhee-Genome/Radiology){:target="_blank"} shows an example of how to process MR image data with Python.  
    
 -----  
   
