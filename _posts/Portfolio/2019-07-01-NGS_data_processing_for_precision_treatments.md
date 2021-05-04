@@ -18,14 +18,15 @@ The first step involves dealing with FASTQ files produced by Illumina sequencers
 These files can be processed using QC tools and aligned with reference sequences via Burrows-Wheeler transformations (Li & Durbin, 2009).  
 The alignment results can then be saved as either sequence alignment map (SAM) files or binary SAM (BAM) files. The next step is profiling the tumor’s genotypes.  
 SAM and BAM files must undergo alignment post-processing before the variant-calling step to remove artifacts created during PCR and local realigning sequence fragments. This processing can be accomplished by many open-source tools, such as SAMtools and Picard.   
-<img src="/assets/img_ngs/Bioinformatics_variation.png" alt="bi" width="450" />   
+![bi](/assets/img_ngs/Bioinformatics_variation.png)  
+  
 The final step is variant-calling. Variants are single-nucleotide polymorphisms, insertion and deletion of nucleotide sequences. Mutect (Cibulskis *et al*., 2013) and GATK (McKenna *et al*., 2010) can be used for variant-calling. Note that GATK version 4 includes Mutect2 by default.  
 For more information on how to validate the applicability of our GliomaSCAN process, please refer to our published paper[<i class="fas fa-paperclip"></i>](https://doi.org/10.4143/crt.2019.036){:target="_blank"}.  
   
 ### 4. Radiogenomics  
 Many clinicians have paid attention to radiogenomics, a combination of genetic information and radiology (Ellingson, 2015). In oncology, radiogenomic approaches are used to generate information about the patient rather than making treatment decisions based on population data or clinical information, such as tumor stage, patient age, or patient gender (Lo Gullo *et al*., 2020). This type of approach is why I helped implement deep learning to solve issues in MR image processing.  
 <img src="/assets/img_ngs/Biomarker.png" alt="biomarker" width="450" />  
-In 2017, deep Learning-based brain tumor diagnosis methods were becoming popular. I observed radiologists at Samsung Medical Center manually segmenting GBM ranges from MR images. To eliminate this laborious task, I pioneered deep learning segmentation with IRCR scientists. My Github repo[<i class="fas fa-github"></i>](https://doi.org/10.4143/crt.2019.036){:target="_blank"} shows an example of how to process MR image data with Python.  
+In 2017, deep Learning-based brain tumor diagnosis methods were becoming popular. I observed radiologists at Samsung Medical Center manually segmenting GBM ranges from MR images. To eliminate this laborious task, I pioneered deep learning segmentation with IRCR scientists. My Github repo[<i class="fab fa-github"></i>](https://doi.org/10.4143/crt.2019.036){:target="_blank"} shows an example of how to process MR image data with Python.  
    
 -----  
   
