@@ -7,7 +7,7 @@ date: 2021-04-10
 ---
   
 ### 1. Introduction    
-This process is the final step in recognizing processed food. To understand the whole food recognition pipeline and its use case, I recommend you to read the previous post(Food Recognition (Object Detection and AI OCR)) first.<br>
+This process is the final step in recognizing processed food. To understand the whole food recognition pipeline and its use case, I recommend you to read the [previous post](https://seonwhee-genome.github.io/portfolio/Food_Recognition/) first.<br>
 ![Overall](/assets/img_foods/OverallAlgorithm_v7.png)  
 <br>
 In the previous post, I discussed why AI OCR, a combination of deep learning-based text detection and recognition for images, was implemented in our food recognition pipeline. In this article, I would like to elaborate more on AI OCR post-processing, which is depicted in the bottom-right of the diagram above.<br><br>
