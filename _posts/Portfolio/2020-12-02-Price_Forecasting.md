@@ -80,20 +80,30 @@ This data can be decomposed into high-variance and stable states, indicating tha
 
 
 #### (2) Classification   
-TMany researchers have used deep neural networks to analyze financial time series. My first deep learning-based time series forecasting model was motivated by the work of Bao et al. (2017) who used the LSTM model with a stacked autoencoder and wavelet transformation to analyze price data. My forecasting model was unsuccessful at producing an accurate regression for some reason. I withdrew the neural network regressor and dove deep into conventional time series models, like ARIMA. However, I found this neural network resolved the classification problem to some extent.  
+Many researchers have used deep neural networks to analyze financial time series. My first deep learning-based time series forecasting model was motivated by the work of Bao et al. (2017) who used the LSTM model with a stacked autoencoder and wavelet transformation to analyze price data. My forecasting model was unsuccessful at producing an accurate regression for some reason. I withdrew the neural network regressor and dove deep into conventional time series models, like ARIMA. However, I found this neural network resolved the classification problem to some extent.  
 
 The effective classification models were based on the random forest (Breiman, 2001), LightGBM (Ke *et al*., 2017), and XGBoost (Chen & Guestrin, 2016) techniques. Given how volatile the recent data was, the model was re-trained on it and its hyperparameters were optimized.
    
   
-#### (3) Investment   
-The returns produced by the classifier-based investing algorithm.   
-<img src="/assets/img_price/invest1.png" alt="invest1" width="200" /><img src="/assets/img_price/invest2.png" alt="invest2" width="200" /><img src="/assets/img_price/invest3.png" alt="invest3" width="200" />    
-The classifier-based algorithm had greater returns than the algorithm that made trades less frequently. There was no correlation between the precision of the classifier and the returns it produced.   
+#### (3) Different approaches to forecasting  
+##### 1) Different variables   
+To identify variables that affect price movements, researchers have tried different approaches to analyzing time series data. Bitcoin is a cryptocurrency based on blockchain technology, so blockchain information, such as hash rate and average block size, was used to model Bitcoin price predictions (Jang & Lee, 2018).  
+ 
     
 -------------   
-Breiman, L. (2001). Random Forests. *Machine Learning, 45*(1), 5–32. https://doi.org/10.1023/A:1010933404324   
+Breiman, L. (2001). Random Forests. *Machine Learning, 45*(1), 5–32. https://doi.org/10.1023/A:1010933404324 <br><br>
 Chen, T. & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. *Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*, 785–794. https://doi.org/10.1145/2939672.2939785   
   
-Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., & Liu, T. (2017). LightGBM: A Highly Efficient Gradient-Boosting Decision Tree. In G. Isabelle, U. Von Luxberg, S. Bengio, H. Wallach, R. Fergus, S. V. N. Vishwanathan, & R. Garnett (Eds.), *Advances in Neural Information Processing Systems 30 (NIPS 2017)* (pp. 3149–3157). https://doi.org/10.1145/1731903.1731925
+Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., & Liu, T. (2017). LightGBM: A Highly Efficient Gradient-Boosting Decision Tree. In G. Isabelle, U. Von Luxberg, S. Bengio, H. Wallach, R. Fergus, S. V. N. Vishwanathan, & R. Garnett (Eds.), *Advances in Neural Information Processing Systems 30 (NIPS 2017)* (pp. 3149–3157). https://doi.org/10.1145/1731903.1731925 <br>  
+FOREX Training group. (n.d.). [How to Trade Forex with Japanese Candlestick Patterns]. Retrieved April 12, 2020, from https://forextraininggroup.com/how-to-trade-forex-with-japanese-candlestick-patterns/ <br><br>
+Velay, M., & Daniel, F. (2018). Stock Chart Pattern recognition with Deep Learning. https://arxiv.org/abs/1808.00418 <br><br>
+Bao, W., Yue, J., & Rao, Y. (2017). A deep learning framework for financial time series using stacked autoencoders and long-short term memory. *PLOS ONE, 12*(7). https://doi.org/10.1371/journal.pone.0180944 <br><br>
+Box, G. E. P., & Jenkins, G. (1990). *Time Series Analysis, Forecasting and Control*. Holden-Day, Inc. <br><br>
+Jang, H., & Lee, J. (2018). An Empirical Study on Modeling and Prediction of Bitcoin Prices With Bayesian Neural Networks Based on Blockchain Information. *IEEE Access, 6*. https://doi.org/10.1109/ACCESS.2017.2779181 <br><br>
+Kim, H., Roh, T., & Choi, T. (2018). A Study of Bayesian Markov-Switching ARMA(p,q)-GARCH(r,s) Model with Hamilton Filter. *The Korean Data Analysis Society, 20*(4). https://doi.org/10.37727/jkdas.2018.20.4.1801 <br><br>
+Pai, P.-F., & Lin, C.-S. (2005). A hybrid ARIMA and support vector machines model in stock price forecasting. *Omega, 33*(6). https://doi.org/10.1016/j.omega.2004.07.024 <br><br>
+Bao, W., Yue, J., & Rao, Y. (2017). A deep learning framework for financial time series using stacked autoencoders and long-short term memory. *PLoS ONE, 12*(7), 1–24. https://doi.org/10.6084/m9.figshare.5028110
+
+
 
 
