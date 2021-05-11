@@ -19,7 +19,7 @@ To calculate the similarity between two words, namely a query and the reference 
 ![blossom](/assets/img_foods/recog_example3.png)
 <br>
 In the example picture above, I only need “아몬드블라썸” to find the closest food name in the DB. However, the text recognized by our model often included additional writing, such as “100 ml,” “500 g,” and “ALMONDBLOSSOM.” Moreover, some products have names that are a combination of the Korean Hangeul alphabet, Chinese characters, English letters, and numbers. It seemed to be inefficient to segregate and filter out additional letters by using rule-based algorithms. Thus, we examined words’ contexts to determine which were essential.<br>
-![blossom](/assets/img_foods/recog_example2.png)<br>
+![mont](/assets/img_foods/recog_example2.jpg)<br>
 For example, the embedding model could learn “몽쉘,” “몽셀,” “몽쉘_딸기_생크림케이크,” and “몽쉘_생크림케이크” and embed them in vectors. Their vectors would be more similar to each other than to other word vectors.<br> 
 My colleague suggested using the minimum edit distance.<br>
 We assessed the feasibility of the two strategies.<br>
