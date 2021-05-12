@@ -92,6 +92,7 @@ To identify variables that affect price movements, researchers have tried differ
 Trendlines or candlestick formations are used to determine whether a current trend is likely to continue or not. Certain formations indicate entry points for short-term investors. The figure above (FOREX training group, n.d.) shows how investors can interpret the candlestick chart.<br>
 This technical analysis motivated me to run convolutional neural networks (CNN) on candlestick charts rather than analyze numeric sequences from OHLCV.<br>
 I hypothesized that patterns in the candlestick chart that represent future price movements could be extracted by a CNN. My Github repo[<i class="fab fa-github"></i>](https://github.com/Seonwhee-Finance/Candlestick_pattern_CNN){:target="_blank"} has an example of one such implementation.<br>
+The idea was simple to implement. First, candlestick charts of randomly selected time intervals were created and saved as images. Then the images were annotated according to whether the price was rising or falling. A 5-minute candlestick chart of a stock’s price from 8–10 AM on 2/24/2019 saved as an image file could be annotated to show that the price rose when it was higher at 10:05 AM than at 10:00 AM.  
 
  
     
