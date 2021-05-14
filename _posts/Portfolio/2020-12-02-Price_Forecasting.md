@@ -89,6 +89,8 @@ The effective classification models were based on the random forest (Breiman, 20
 ##### 1) Different variables   
 To identify variables that affect price movements, researchers have tried different approaches to analyzing time series data. Bitcoin is a cryptocurrency based on blockchain technology, so blockchain information, such as hash rate and average block size, was used to model Bitcoin price predictions (Jang & Lee, 2018).<br><br>
 ##### 2) Learning from images rather than numerical data  
+![time_series](/assets/img_price/Candlestick-Patterns.png)
+
 Trendlines or candlestick formations are used to determine whether a current trend is likely to continue or not. Certain formations indicate entry points for short-term investors. The figure above (FOREX training group, n.d.) shows how investors can interpret the candlestick chart.<br>
 This technical analysis motivated me to run convolutional neural networks (CNN) on candlestick charts rather than analyze numeric sequences from OHLCV.<br>
 I hypothesized that patterns in the candlestick chart that represent future price movements could be extracted by a CNN. My Github repo[<i class="fab fa-github"></i>](https://github.com/Seonwhee-Finance/Candlestick_pattern_CNN){:target="_blank"} has an example of one such implementation.<br>
