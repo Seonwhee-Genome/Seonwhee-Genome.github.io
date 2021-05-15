@@ -95,8 +95,9 @@ Trendlines or candlestick formations are used to determine whether a current tre
 ![OHLCV](/assets/img_price/OHLCV.png)<br>
 This technical analysis motivated me to run convolutional neural networks (CNN) on candlestick charts rather than analyze numeric sequences from OHLCV.<br>
 I hypothesized that patterns in the candlestick chart that represent future price movements could be extracted by a CNN. My Github repo[<i class="fab fa-github"></i>](https://github.com/Seonwhee-Finance/Candlestick_pattern_CNN){:target="_blank"} has an example of one such implementation.<br>
-The idea was simple to implement. First, candlestick charts of randomly selected time intervals were created and saved as images. Then the images were annotated according to whether the price was rising or falling. A 5-minute candlestick chart of a stock’s price from 8–10 AM on 2/24/2019 saved as an image file could be annotated to show that the price rose when it was higher at 10:05 AM than at 10:00 AM.  
-
+The idea was simple to implement. First, candlestick charts of randomly selected time intervals were created and saved as images. Then the images were annotated according to whether the price was rising or falling. A 5-minute candlestick chart of a stock’s price from 8–10 AM on 2/24/2019 saved as an image file could be annotated to show that the price rose when it was higher at 10:05 AM than at 10:00 AM.<br>
+After creating this data, the CNN architecture is ready to learn. You may use an LSTM (Velay & Daniel, 2018) as well.<br>
+Despite this idea’s simplicity, the CNN models were subject to overfitting and I struggled to identify optimal hyperparameters because there were too many. I engaged in a lot of trial and error to determine various things, such as the size and aspect ratio of the candlestick images, how to augment them, and the learning rate.<br><br>
  
     
 -------------   
