@@ -23,9 +23,10 @@ In the example picture above, I only need “아몬드블라썸” to find the c
 For example, the embedding model could learn “몽쉘,” “몽셀,” “몽쉘_딸기_생크림케이크,” and “몽쉘_생크림케이크” and embed them in vectors. Their vectors would be more similar to each other than to other word vectors.<br> 
 My colleague suggested using the minimum edit distance.<br>
 We assessed the feasibility of the two strategies.<br>
+![two strategies](/assets/img_foods/OCR_NLP.png)<br>
 Using word-embedding to identify context seemed like it would complement calculating edit distances alone. However, in practice, it was very complicated because the corpus in the DB consisted only of food names and so was insufficient for us to test our hypothesis. We needed to design the corpus to be able to learn the context of food names successfully.<br>
 We found that the minimum edit distance algorithm was robust to misrecognized letters. When we decomposed Korean writing into consonants and vowels, we were able to calculate the edit distance between a query and its corresponding reference more precisely.<br><br>
-![Overall](/assets/img_foods/Edit_distance.png)  
+![edit distance](/assets/img_foods/Edit_distance.png)  
 As shown in the figure above, “되치머” seems to be more similar to “돼지바” than “쵸코렛.” However, both “되치머” and “쵸코렛” had an edit distance of 3, indicating that the word-level edit distance cannot represent vowel- and consonant-level differences between two words written in Hangeul. Therefore, they have to be decomposed.<br>
 I made an iOS app using Swift to test the AI OCR model and the minimum edit distance algorithm. A commercial Android app was developed by another developer. The images below show the client-side UIs of the apps.<br>
  <img src="/assets/img_foods/OCR_example1.gif" alt="food" width="250" />  
