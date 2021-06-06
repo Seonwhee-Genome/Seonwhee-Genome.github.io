@@ -70,3 +70,13 @@ Recorded game view
   
 --------------
 --------------
+## Data Processing Frameworks  
+### Apache Spark for Java Developers | Udemy [<i class="fas fa-link"></i>](https://www.udemy.com/certificate/UC-Y24JK0A0/){:target="_blank"}    
+Tools : JAVA, SQL, Shell Script<br>
+Syllabus [<i class="fas fa-paperclip"></i>](https://www.udemy.com/course/apache-spark-for-java-developers/){:target="_blank"}<br><br>
+- Use functional style Java to define complex data processing jobs
+- Learn the differences between the RDD and DataFrame APIs
+- Use an SQL style syntax to produce reports against Big Data sets
+- Use Machine Learning Algorithms with Big Data and SparkML
+- Connect Spark to Apache Kafka to process Streams of Big Data
+- See how Structured Streaming can be used to build pipelines with Kafka  
