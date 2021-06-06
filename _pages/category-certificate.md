@@ -37,7 +37,7 @@ Use encoder-decoder, causal, & self-attention to machine translate complete sent
   
 -------------
 
-### Deep Learning for Natural Language Processing | Seoul National University Big Data Academy [<i class="fas fa-link"></i>](https://drive.google.com/file/d/1gywzWF6bu6qvIxwiP7fpaArhIALq22E3/view?usp=sharing){:target="_blank"}  
+### Deep Learning for Natural Language Processing (in Korean)| Seoul National University Big Data Academy [<i class="fas fa-link"></i>](https://drive.google.com/file/d/1gywzWF6bu6qvIxwiP7fpaArhIALq22E3/view?usp=sharing){:target="_blank"}  
 Tools : Python, Jupyter Notebook, PyTorch, Huggingface    
 Instructor : Professor Hyopil Shin [<i class="fas fa-user"></i>](http://knlp.snu.ac.kr/#p3){:target="_blank"}  
 Syllabus [<i class="fas fa-paperclip"></i>](https://hpshin.github.io/NaturalLanguageBigDataAnalysis/index.html){:target="_blank"}    
@@ -73,10 +73,11 @@ Recorded game view
 ## Data Processing Frameworks  
 ### Apache Spark for Java Developers | Udemy [<i class="fas fa-link"></i>](https://www.udemy.com/certificate/UC-Y24JK0A0/){:target="_blank"}    
 Tools : JAVA, SQL, Shell Script<br>
-Syllabus [<i class="fas fa-paperclip"></i>](https://www.udemy.com/course/apache-spark-for-java-developers/){:target="_blank"}<br><br>
+Syllabus [<i class="fas fa-paperclip"></i>](https://www.udemy.com/course/apache-spark-for-java-developers/){:target="_blank"}<br>
 - Use functional style Java to define complex data processing jobs
 - Learn the differences between the RDD and DataFrame APIs
 - Use an SQL style syntax to produce reports against Big Data sets
 - Use Machine Learning Algorithms with Big Data and SparkML
 - Connect Spark to Apache Kafka to process Streams of Big Data
 - See how Structured Streaming can be used to build pipelines with Kafka  
+<br>
