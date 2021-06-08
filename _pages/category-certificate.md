@@ -41,6 +41,10 @@ Use encoder-decoder, causal, & self-attention to machine translate complete sent
 Tools : Python, Jupyter Notebook, PyTorch, Huggingface    
 Instructor : Professor Hyopil Shin [<i class="fas fa-user"></i>](http://knlp.snu.ac.kr/#p3){:target="_blank"}  
 Syllabus [<i class="fas fa-paperclip"></i>](https://hpshin.github.io/NaturalLanguageBigDataAnalysis/index.html){:target="_blank"}    
+- Attention Model
+- Transformer
+- BERT (Bidirectional Encoder Representations from Transformers)
+- Transformers by Huggingface
 
   
 ----------
