@@ -47,7 +47,19 @@ Syllabus [<i class="fas fa-paperclip"></i>](https://hpshin.github.io/NaturalLang
   
 ### Introduction to Linguistics | Udemy [<i class="fas fa-link"></i>](https://www.udemy.com/certificate/UC-8TBMBQBQ/){:target="_blank"}  
 Syllabus [<i class="fas fa-paperclip"></i>](https://www.udemy.com/course/introduction-to-linguistics/){:target="_blank"}  
-  
+- Understand the fundamentals of language
+- Understand sentence structure and word order of various languages.
+- Classify words into nouns, verbs, adjectives, prepositions, quantifiers, and adverbs.
+- Draw syntactic trees for simple sentences.
+- Understand the difference between entailment, implicature, presupposition, and contradiction.
+- Identify the thematic role of words in a sentence.
+- Understand what affixes do and how they can change the meaning of words.
+- Identify morphological processes in languages across the world.
+- Understand the properties of vowels and consonants.
+- Read and write the International Phonetic Alphabet.
+- Understand how sounds interact with each other.
+- Use the features of sounds to create rules about how sounds change in different environments.
+- Attain the toolbox required to learn languages a little bit easier.
     
 
 --------------
