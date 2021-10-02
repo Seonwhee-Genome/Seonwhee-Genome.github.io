@@ -44,7 +44,6 @@ Syllabus [<i class="fas fa-paperclip"></i>](https://hpshin.github.io/NaturalLang
 - Attention Model
 - Transformer
 - BERT (Bidirectional Encoder Representations from Transformers)
-- Transformers by Huggingface
 
   
 ----------
