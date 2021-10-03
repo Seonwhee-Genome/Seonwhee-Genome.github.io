@@ -6,6 +6,13 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/  
   - title: "Blogs (In Korean)"
     url: /Blogs_Korean/
+    sublinks:
+      - title: "Natural Language Processing"
+        url: /Blogs_Korean/NLP/
+      - title: "Reinforcement Learning"
+        url: /Blogs_Korean/RL/
+      - title: "Computer Vision"
+        url: /Blogs_Korean/CV/
   - title: "Portfolio"
     url: /Portfolio/
   - title: "Certificates"
