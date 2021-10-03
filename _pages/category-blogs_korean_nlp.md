@@ -1,6 +1,7 @@
 ---
 layout: category
+taxonomy: Blogs_Korean_NLP
 title: "Natural Language Processing"
-tags: [Blogs (In Korean)]
 permalink: /Blogs_Korean/NLP/
+author_profile: true
 ---
