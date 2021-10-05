@@ -4,14 +4,23 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/  
+  - title: "Blogs"
+    url: /Blogs/
+    sublinks:
+      - title: "Natural Language Processing"
+        url: /Blogs/NLP/
+      - title: "Reinforcement Learning"
+        url: /Blogs/RL/
+      - title: "Computer Vision"
+        url: /Blogs/CV/
   - title: "Blogs (In Korean)"
     url: /Blogs_Korean/
     sublinks:
-      - title: "Natural Language Processing"
+      - title: "자연어 처리"
         url: /Blogs_Korean/NLP/
-      - title: "Reinforcement Learning"
+      - title: "강화학습"
         url: /Blogs_Korean/RL/
-      - title: "Computer Vision"
+      - title: "컴퓨터 비전"
         url: /Blogs_Korean/CV/
   - title: "Portfolio"
     url: /Portfolio/
