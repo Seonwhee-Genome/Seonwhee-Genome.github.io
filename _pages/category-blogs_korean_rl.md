@@ -1,7 +1,7 @@
 ---
 layout: category
 taxonomy: Blogs_Korean_RL
-title: "Reinforcement Learning"
+title: "강화학습"
 permalink: /Blogs_Korean/RL/
 author_profile: true
 ---
