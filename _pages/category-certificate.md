@@ -5,6 +5,7 @@ title: Certificates
 permalink: "/Certificates/"
 author_profile: true
 ---
+
 ## Natural Language Processing  
 ### Natural Language Processing Nanodegree | Udacity [<i class="fas fa-link"></i>](https://graduation.udacity.com/confirm/LYZAKAJM){:target="_blank"}  
 Tools : Python, Jupyter Notebook, Tensorflow  
@@ -85,7 +86,14 @@ Recorded game view
   
 --------------
 --------------
-## Data Processing Frameworks  
+## Data Engineering 
+### Fundamentals of Deep Learning for Multi-GPUs | NVIDIA [<i class="fas fa-link"></i>](https://courses.nvidia.com/certificates/9013777d7b7446adaf0b7ae822c1befe){:target="_blank"}    
+Tools : Python, Keras, Horovod<br>
+Syllabus [<i class="fas fa-paperclip"></i>](https://courses.nvidia.com/courses/course-v1:DLI+C-MG-01+V2-KR/about){:target="_blank"}    
+- Approaches to multi-GPU training  
+<br>
+--------------
+
 ### Apache Spark for Java Developers | Udemy [<i class="fas fa-link"></i>](https://www.udemy.com/certificate/UC-Y24JK0A0/){:target="_blank"}    
 Tools : JAVA, SQL, Shell Script<br>
 Syllabus [<i class="fas fa-paperclip"></i>](https://www.udemy.com/course/apache-spark-for-java-developers/){:target="_blank"}<br>
