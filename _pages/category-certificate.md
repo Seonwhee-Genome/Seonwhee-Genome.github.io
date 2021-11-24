@@ -92,7 +92,7 @@ Tools : Python, Keras, Horovod<br>
 Syllabus [<i class="fas fa-paperclip"></i>](https://courses.nvidia.com/courses/course-v1:DLI+C-MG-01+V2-KR/about){:target="_blank"}    
 - Approaches to multi-GPU training  
 <br>
---------------
+----------
 
 ### Apache Spark for Java Developers | Udemy [<i class="fas fa-link"></i>](https://www.udemy.com/certificate/UC-Y24JK0A0/){:target="_blank"}    
 Tools : JAVA, SQL, Shell Script<br>
