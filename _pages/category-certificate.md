@@ -7,6 +7,13 @@ author_profile: true
 ---
 
 ## Natural Language Processing  
+### Sentiment Analysis with Deep Learning using BERT | Coursera [<i class="fas fa-link"></i>](https://coursera.org/share/d47c6b15fb23720f2226d330b8191661){:target="_blank"}<br>  
+Tools : Python, PyTorch
+Syllabus [<i class="fas fa-paperclip"></i>](https://www.coursera.org/specializations/natural-language-processing?#courses){:target="_blank"}  
+
+------
+
+
 ### Natural Language Processing Nanodegree | Udacity [<i class="fas fa-link"></i>](https://graduation.udacity.com/confirm/LYZAKAJM){:target="_blank"}  
 Tools : Python, Jupyter Notebook, Tensorflow  
 Syllabus [<i class="fas fa-download"></i>](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/NLP+Nanodegree+Syllabus.pdf){:target="_blank"}  
@@ -89,9 +96,9 @@ Recorded game view
 ## Data Engineering 
 ### Fundamentals of Deep Learning for Multi-GPUs | NVIDIA [<i class="fas fa-link"></i>](https://courses.nvidia.com/certificates/9013777d7b7446adaf0b7ae822c1befe){:target="_blank"}    
 Tools : Python, Keras, Horovod<br>
-Syllabus [<i class="fas fa-paperclip"></i>](https://courses.nvidia.com/courses/course-v1:DLI+C-MG-01+V2-KR/about){:target="_blank"}    
+Syllabus [<i class="fas fa-paperclip"></i>](https://courses.nvidia.com/courses/course-v1:DLI+C-MG-01+V2-KR/about){:target="_blank"}<br>    
 - Approaches to multi-GPU training  
-<br>
+
 ----------
 
 ### Apache Spark for Java Developers | Udemy [<i class="fas fa-link"></i>](https://www.udemy.com/certificate/UC-Y24JK0A0/){:target="_blank"}    
