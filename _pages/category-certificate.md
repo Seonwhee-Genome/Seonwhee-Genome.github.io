@@ -8,8 +8,20 @@ author_profile: true
 
 ## Natural Language Processing  
 ### Sentiment Analysis with Deep Learning using BERT | Coursera [<i class="fas fa-link"></i>](https://coursera.org/share/d47c6b15fb23720f2226d330b8191661){:target="_blank"}<br>  
-Tools : Python, PyTorch
-Syllabus [<i class="fas fa-paperclip"></i>](https://www.coursera.org/specializations/natural-language-processing?#courses){:target="_blank"}  
+Tools : Python, PyTorch<br>
+Syllabus [<i class="fas fa-paperclip"></i>](https://www.coursera.org/learn/sentiment-analysis-bert/supplement/2KrW0/project-based-course-overview){:target="_blank"}  
+The hands on project on Sentiment Analysis with Deep Learning using BERT is divided into following tasks:  
+<br>
+* Task 1: An introduction to some basic theory behind BERT, and the problem we will be using it to solve<br>
+* Task 2: Explore dataset distribution and some basic preprocessing<br>
+* Task 3: Split dataset into training and validation using stratified approach<br>
+* Task 4: Loading pretrained tokenizer to encode our text data into numerical values (tensors)<br>
+* Task 5: Load in pretrained BERT with custom final layer<br>
+* Task 6: Create dataloaders to facilitate batch processing<br>
+* Task 7: Choose and optimizer and scheduler to control training of model<br>
+* Task 8: Design performance metrics for our problem<br>
+* Task 9: Create a training loop to control PyTorch finetuning of BERT using CPU or GPU acceleration<br>
+* Task 10: Load in a pre-saved finetuned BERT model and evaluate its performance, and some final thoughts  
 
 ------
 
