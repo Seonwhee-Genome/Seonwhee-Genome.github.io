@@ -105,7 +105,7 @@ Recorded game view
   
 --------------
 --------------
-## Data Engineering 
+## Data Engineering and MLOps  
 ### Fundamentals of Deep Learning for Multi-GPUs | NVIDIA [<i class="fas fa-link"></i>](https://courses.nvidia.com/certificates/9013777d7b7446adaf0b7ae822c1befe){:target="_blank"}    
 Tools : Python, Keras, Horovod<br>
 Syllabus [<i class="fas fa-paperclip"></i>](https://courses.nvidia.com/courses/course-v1:DLI+C-MG-01+V2-KR/about){:target="_blank"}<br>    
