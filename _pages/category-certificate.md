@@ -106,6 +106,18 @@ Recorded game view
 --------------
 --------------
 ## Data Engineering and MLOps  
+### Kubernetes: Basic Architecture and First Deployment | Coursera [<i class="fas fa-link"></i>](https://coursera.org/share/30e85cfcbf19ed07d50feefd29146c62){:target="_blank"}    
+Tools : Kubernetes<br>
+Syllabus [<i class="fas fa-paperclip"></i>](https://www.coursera.org/projects/kubernetes-basic-architecture-first-deployment){:target="_blank"}<br>
+What is Kubernetes?<br> 
+K8s Cluster (high level): Nodes, Pods and Objects<br>
+Worker Nodes and Pods<br>
+Write your first Deployment<br>
+Write a service to access your app
+  
+----------
+
+
 ### Fundamentals of Deep Learning for Multi-GPUs | NVIDIA [<i class="fas fa-link"></i>](https://courses.nvidia.com/certificates/9013777d7b7446adaf0b7ae822c1befe){:target="_blank"}    
 Tools : Python, Keras, Horovod<br>
 Syllabus [<i class="fas fa-paperclip"></i>](https://courses.nvidia.com/courses/course-v1:DLI+C-MG-01+V2-KR/about){:target="_blank"}<br>    
