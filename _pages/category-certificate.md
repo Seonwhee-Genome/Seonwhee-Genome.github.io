@@ -109,12 +109,12 @@ Recorded game view
 ### Kubeflow Fundamentals - How To Build ML/AI Pipelines | Udemy [<i class="fas fa-link"></i>](https://www.udemy.com/certificate/UC-54c8641b-f6bc-4a4a-8e3d-fe64d26f5283){:target="_blank"}  
 Tools : GoogleCloud, Kubeflow, Kubernetes<br>
 Syllabus [<i class="fas fa-paperclip"></i>](https://www.udemy.com/course/kubeflow-fundamentals/){:target="_blank"}<br>
-What are containers & Virtual Machines - Introduction<br>
-What is Kubernetes - Fundamentals<br>
-Kubernetes & Clusters - Fundamentals<br>
-What is Kubeflow - Introduction<br>
-Kubeflow project set up - Google Cloud Platform GCP<br>
-Kubeflow run a pipeline from UI - Google Cloud Platform GCP    
+- What are containers & Virtual Machines - Introduction<br>
+- What is Kubernetes - Fundamentals<br>
+- Kubernetes & Clusters - Fundamentals<br>
+- What is Kubeflow - Introduction<br>
+- Kubeflow project set up - Google Cloud Platform GCP<br>
+- Kubeflow run a pipeline from UI - Google Cloud Platform GCP    
 
 ----------
 
@@ -122,11 +122,11 @@ Kubeflow run a pipeline from UI - Google Cloud Platform GCP
 ### Kubernetes: Basic Architecture and First Deployment | Coursera [<i class="fas fa-link"></i>](https://coursera.org/share/30e85cfcbf19ed07d50feefd29146c62){:target="_blank"}    
 Tools : Kubernetes<br>
 Syllabus [<i class="fas fa-paperclip"></i>](https://www.coursera.org/projects/kubernetes-basic-architecture-first-deployment){:target="_blank"}<br>
-What is Kubernetes?<br> 
-K8s Cluster (high level): Nodes, Pods and Objects<br>
-Worker Nodes and Pods<br>
-Write your first Deployment<br>
-Write a service to access your app
+- What is Kubernetes?<br> 
+- K8s Cluster (high level): Nodes, Pods and Objects<br>
+- Worker Nodes and Pods<br>
+- Write your first Deployment<br>
+- Write a service to access your app
 
 ----------
 
