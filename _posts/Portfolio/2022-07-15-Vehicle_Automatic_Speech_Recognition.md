@@ -78,7 +78,10 @@ We also conducted an experiment to determine whether language affected represent
 | training epoch | 30 | 7 |
 
 
-However, as shown in the table below, fine-tuning K-Wav2vec 2.0 with our training set was not successful, which indicates that the effect of language on model performance was minimal.
+However, as shown in the table below, fine-tuning K-Wav2vec 2.0 with our training set was not successful, which indicates that the effect of language on model performance was minimal.  
+
+### 6. Conclusion  
+
 
 |  | wav2vec-pf | wav2vec-pf @noise_100% | wav2vec-pf_sf@noise_48% |
 | --- | --- | --- | --- |
@@ -87,7 +90,7 @@ However, as shown in the table below, fine-tuning K-Wav2vec 2.0 with our trainin
 The performance evaluation results reflected the effectiveness of secondary fine-tuning with a moderate ratio of noise data. The primary fine-tuning with clean Korean utterances appeared to cause the models to better learn representations of Korean linguistical features while secondary fine-tuning with 0.48:1 noise-overlayed utterances (wav2vec-pf_sf@noise_48%) appeared to increase their robustness to noise.  
 
 
-### 6. References
+### 7. References
 
 Amodei, D., Ananthanarayanan, S., Anubhai, R., Bai, J., Battenberg, E., Case, C., Casper, J., Catanzaro, B., Cheng, Q., Chen, G., Chen, J., Chen, J., Chen, Z., Chrzanowski, M., Coates, A., Diamos, G., Ding, K., Du, N., Elsen, E., … Zhu, Z. (2016). Deep Speech 2: End-to-End Speech Recognition in English and Mandarin. *Proceedings of the 33rd International Conference on International Conference on Machine Learning - Volume 48*, 173–182.  
 
