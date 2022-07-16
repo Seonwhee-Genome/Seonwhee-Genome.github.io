@@ -87,7 +87,7 @@ However, as shown in the table below, fine-tuning K-Wav2vec 2.0 with our trainin
 | --- | --- | --- | --- |
 | CER | 0.038688 | 1 | 0.012369 |
 
-The performance evaluation results reflected the effectiveness of secondary fine-tuning with a moderate ratio of noise data. The primary fine-tuning with clean Korean utterances appeared to cause the models to better learn representations of Korean linguistical features while secondary fine-tuning with 0.48:1 noise-overlayed utterances (wav2vec-pf_sf@noise_48%) appeared to increase their robustness to noise.  
+The performance evaluation results reflected the effectiveness of secondary fine-tuning with a moderate ratio of noise data. The primary fine-tuning with clean Korean utterances appeared to cause the models to better learn representations of Korean linguistical features while secondary fine-tuning with 0.48:0.52 noise-overlayed utterances (wav2vec-pf_sf@noise_48%) appeared to increase their robustness to noise.  
 
 
 ### 7. References
