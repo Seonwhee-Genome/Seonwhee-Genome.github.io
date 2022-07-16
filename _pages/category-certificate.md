@@ -6,6 +6,17 @@ permalink: "/Certificates/"
 author_profile: true
 ---
 
+## 2022 AI Online Contest [<i class="fas fa-link"></i>](https://aichallenge.or.kr/competition/detail/1){:target="_blank"}<br>
+### Smart Vehicle Speech Recognition Challenge 🥈  
+The Korean Ministry of Science and ICT hosted the 2022 AI Online Contest to identify small- and medium-sized enterprises developing creative AI applications and to support them in their work. Only those who worked for such firms could enter the contest.  
+There were 10 different categories in which entrants could compete: smart vehicle speech recognition, speaker recognition for security applications, machine reading comprehension, semantic segmentation of harbor structures, information retrieval systems for libraries, water pollution forecasting, water pipe leakage detection, raw beef quality grading, moving object detection, and satellite image in-painting. 
+Those who finished in 1st through 4th place qualified to apply for a government subsidy of approximately KRW 200M for a new AI business. My team came in 2nd out of 32 teams(leaderboard [<i class="fas fa-link"></i>](https://aichallenge.or.kr/competition/detail/1/task/7/leaderboard){:target="_blank"}) and received a certificate of excellence.
+![Figure 1](/assets/img_cert/cert_of_excel.jpeg)  
+[The following link](https://seonwhee-genome.github.io/portfolio/Vehicle_Automatic_Speech_Recognition/) describes how we approached the problem.  
+
+-----  
+  
+
 ## Natural Language Processing  
 ### Sentiment Analysis with Deep Learning using BERT | Coursera [<i class="fas fa-link"></i>](https://coursera.org/share/d47c6b15fb23720f2226d330b8191661){:target="_blank"}<br>  
 Tools : Python, PyTorch<br>
