@@ -13,15 +13,6 @@ main:
         url: /Blogs/RL/
       - title: "Computer Vision"
         url: /Blogs/CV/
-  - title: "Blogs (In Korean)"
-    url: /Blogs_Korean/
-    sublinks:
-      - title: "자연어 처리"
-        url: /Blogs_Korean/NLP/
-      - title: "강화학습"
-        url: /Blogs_Korean/RL/
-      - title: "컴퓨터 비전"
-        url: /Blogs_Korean/CV/
   - title: "Portfolio"
     url: /Portfolio/
   - title: "Certificates"
