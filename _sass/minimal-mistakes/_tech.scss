@@ -401,6 +401,12 @@ figcaption > code {
   padding: 0.15em 0.4em;
 }
 
+/* keep wide MathJax equations from widening the page on phones */
+.MJXc-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
 .archive img {
   border-radius: var(--radius-sm);
 }
