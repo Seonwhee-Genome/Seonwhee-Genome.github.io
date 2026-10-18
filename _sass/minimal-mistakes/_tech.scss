@@ -693,6 +693,261 @@ select {
 }
 
 /*
+   Certificates page
+   ========================================================================== */
+
+.cert-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+
+  details > summary {
+    list-style: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--accent-1);
+      outline-offset: 2px;
+    }
+  }
+}
+
+.cert-chevron {
+  flex-shrink: 0;
+  color: var(--muted);
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+
+details[open] > summary > .cert-chevron {
+  transform: rotate(180deg);
+  color: var(--accent-1);
+}
+
+.cert-chip {
+  display: inline-block;
+  padding: 0.15em 0.65em;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.75em;
+  font-weight: 500;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.cert-group {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover,
+  &[open] {
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-hover);
+  }
+}
+
+.cert-group__summary {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1.1em 1.4em;
+}
+
+.cert-group__icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 2.8em;
+  height: 2.8em;
+  border-radius: 12px;
+  background: var(--gradient);
+  color: #fff;
+  font-size: 1.05em;
+  box-shadow: 0 6px 20px rgba(34, 211, 238, 0.25);
+}
+
+.cert-group__text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.35em;
+  min-width: 0;
+}
+
+.cert-group__title {
+  font-family: var(--font-head);
+  font-size: 1.3em;
+  font-weight: 700;
+  color: var(--text-strong);
+}
+
+.cert-group__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4em;
+  color: var(--muted);
+  font-size: 0.8em;
+}
+
+.cert-group__body {
+  padding: 0 1.4em 1.4em;
+  animation: tech-rise 0.3s ease both;
+}
+
+.cert-section__title {
+  margin: 1em 0 0.6em;
+  padding: 0;
+  border: 0;
+  color: var(--muted);
+  font-size: 0.8em;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 2.5em;
+    height: 2px;
+    margin-top: 0.5em;
+    border-radius: 2px;
+    background: var(--gradient);
+  }
+}
+
+.cert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.cert {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  transition: border-color 0.2s ease, background 0.2s ease;
+
+  &:hover,
+  &[open] {
+    border-color: var(--border-strong);
+    background: var(--surface-hover);
+  }
+}
+
+.cert__summary {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0.8em 1em;
+}
+
+.cert__head {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25em 0.75em;
+  min-width: 0;
+}
+
+.cert__title {
+  flex-basis: 100%;
+  color: var(--text-strong);
+  font-family: var(--font-head);
+  font-size: 0.95em;
+  font-weight: 600;
+}
+
+.cert__issuer {
+  color: var(--accent-1);
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.cert__badge {
+  padding: 0.1em 0.6em;
+  border-radius: 999px;
+  background: var(--gradient);
+  color: #fff;
+  font-size: 0.72em;
+  font-weight: 600;
+}
+
+.cert__body {
+  padding: 0.2em 1em 1em;
+  border-top: 1px solid var(--border);
+  font-size: 0.9em;
+  animation: tech-rise 0.3s ease both;
+}
+
+.cert__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 0.9em 0 0.6em;
+}
+
+.cert__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.3em 0.8em;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 0.85em;
+  text-decoration: none;
+  transition: all 0.2s ease;
+
+  &:visited {
+    color: var(--text);
+  }
+
+  &:hover {
+    border-color: transparent;
+    background: var(--gradient);
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.cert__tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-bottom: 0.6em;
+}
+
+.cert__content {
+  p,
+  ul,
+  ol {
+    margin-bottom: 0.8em;
+  }
+
+  li {
+    margin-bottom: 0.3em;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 0.4em;
+  }
+}
+
+/*
    Entrance animation
    ========================================================================== */
 

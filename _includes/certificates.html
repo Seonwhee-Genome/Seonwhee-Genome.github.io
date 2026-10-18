@@ -1,0 +1,62 @@
+<div class="cert-groups">
+{% for group in site.data.certificates.groups %}
+{% assign cert_count = 0 %}
+{% for section in group.sections %}{% assign cert_count = cert_count | plus: section.items.size %}{% endfor %}
+<details class="cert-group" id="{{ group.id }}">
+  <summary class="cert-group__summary">
+    <span class="cert-group__icon"><i class="{{ group.icon }}" aria-hidden="true"></i></span>
+    <span class="cert-group__text">
+      <span class="cert-group__title">{{ group.title }}</span>
+      <span class="cert-group__meta">
+        {% assign unit = group.unit | default: 'certificate' %}
+        {{ cert_count }} {{ unit }}{% if cert_count != 1 %}s{% endif %}
+        {% for section in group.sections %}{% if section.title %}<span class="cert-chip">{{ section.title }}</span>{% endif %}{% endfor %}
+      </span>
+    </span>
+    <i class="fas fa-chevron-down cert-chevron" aria-hidden="true"></i>
+  </summary>
+  <div class="cert-group__body">
+  {% for section in group.sections %}
+    {% if section.title %}<h3 class="cert-section__title">{{ section.title }}</h3>{% endif %}
+    <div class="cert-list">
+    {% for item in section.items %}
+      <details class="cert">
+        <summary class="cert__summary">
+          <span class="cert__head">
+            <span class="cert__title">{{ item.title }}</span>
+            <span class="cert__issuer">{{ item.issuer }}</span>
+            {% if item.badge %}<span class="cert__badge">{{ item.badge }}</span>{% endif %}
+          </span>
+          <i class="fas fa-chevron-down cert-chevron" aria-hidden="true"></i>
+        </summary>
+        <div class="cert__body">
+          <div class="cert__links">
+            {% if item.link %}<a class="cert__link" href="{{ item.link }}" target="_blank" rel="noopener"><i class="fas fa-certificate" aria-hidden="true"></i> Certificate</a>{% endif %}
+            {% if item.syllabus %}<a class="cert__link" href="{{ item.syllabus }}" target="_blank" rel="noopener"><i class="fas fa-{{ item.syllabus_icon | default: 'paperclip' }}" aria-hidden="true"></i> Syllabus</a>{% endif %}
+            {% if item.instructor %}<a class="cert__link" href="{{ item.instructor_link }}" target="_blank" rel="noopener"><i class="fas fa-user" aria-hidden="true"></i> {{ item.instructor }}</a>{% endif %}
+          </div>
+          {% if item.tools %}
+          <div class="cert__tools">
+            {% for tool in item.tools %}<span class="cert-chip">{{ tool }}</span>{% endfor %}
+          </div>
+          {% endif %}
+          <div class="cert__content">
+{{ item.body | markdownify }}
+          </div>
+        </div>
+      </details>
+    {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+</details>
+{% endfor %}
+</div>
+
+<script>
+  // Open the group named in the URL hash, e.g. /Certificates/#infra-ops
+  (function () {
+    var target = window.location.hash && document.getElementById(window.location.hash.slice(1));
+    if (target && target.tagName === "DETAILS") { target.open = true; }
+  })();
+</script>
